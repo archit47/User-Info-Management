@@ -2,11 +2,17 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>The Scala.js Tutorial</title>
+    <title>User-Info-Management(Scala.Js POC)</title>
+<!--
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery/2.1.1/jquery.js"></script>
+ -->
+
 </head>
 <body>
 <!-- Include Scala.js compiled code -->
+
 <script type="text/javascript" src="../../../target/scala-2.11/user-info-management-system-fastopt.js"></script>
+<script type="text/javascript" src="../../../target/scala-2.11/user-info-management-system-jsdeps.js"></script>
 
 <button id="click-me-button" type="button" onclick="com.userinfo.app.Main().addClickedMessage()">Click me!</button>
 

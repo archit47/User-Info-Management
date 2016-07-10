@@ -8,6 +8,7 @@ import org.scalajs.dom
 import dom.document
 
 import scala.scalajs.js.annotation.JSExport
+import org.scalajs.jquery.jQuery
 
 object Main extends JSApp{
 
@@ -27,6 +28,9 @@ object Main extends JSApp{
 
   @JSExport
   def addClickedMessage(): Unit = {
-    appendPar(document.body, "You clicked the button!")
+ //   appendPar(document.body, "You clicked the button!")
+
+    jQuery("body").append("<p>[You clicked the button!]</p>")
+
   }
 }
