@@ -25,5 +25,6 @@ libraryDependencies ++= {
   )
 }
 libraryDependencies += "org.scala-js" %%% "scalajs-dom" % "0.9.0"
+libraryDependencies += "be.doeraene" %%% "scalajs-jquery" % "0.9.0"
 
 scalaJSUseRhino in Global := false
